@@ -1,0 +1,32 @@
+package march31;
+//create  derived class PrimeCustomer
+ class PrimeCustomer extends Customer
+ {
+
+	public PrimeCustomer(int customerid, String customername, String customeraddress, long creditcardnumber,
+			long mobilenumber, String productname, double price, int quantity)
+	{
+		super(customerid, customername, customeraddress, creditcardnumber, mobilenumber, productname, price, quantity);
+		
+	}
+
+}
+ //create derived  class NonPrime Customer
+ class NonPrimeCustomer extends Customer
+ {
+
+	public NonPrimeCustomer(int customerid, String customername, String customeraddress, long creditcardnumber,
+			long mobilenumber, String productname, double price, int quantity)
+	{
+		super(customerid, customername, customeraddress, creditcardnumber, mobilenumber, productname, price, quantity);
+		
+	}
+	 
+ }
+ public class Ex1g
+ {
+ public static void main(String args[])
+ {
+	 
+ }
+ }
